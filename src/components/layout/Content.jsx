@@ -8,10 +8,10 @@ import About from '../../views/examples/About'
 const Content = props => (
     <aside className="Content">
        <Switch>
-           <Route path="/about">
+           <Route path="/home">
                <Home/>
            </Route>
-           <Route path="/">
+           <Route path="/about">
                <About/>
            </Route>
        </Switch>
